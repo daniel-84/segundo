@@ -39,4 +39,6 @@ resources:
     type: org.cloudfoundry.existing-service
     parameters:
       service: hana
-      service-plan: hdi-shared      
+      service-plan: hdi-shared   
+    properties:
+      hdi-service-name: cap_clear_engine-db        
